@@ -29,7 +29,7 @@ for name in favorite_languages.keys():
 for name in favorite_languages:
     print(name)
 
-# Python will return the items ins the dictionary in the same order as they appear.
+# Python will return the items in the dictionary in the same order as they appear.
 # To sort the result we can use the sorted() function.
 for name in sorted(favorite_languages.keys()):
     print(f"{name}, thank you for participating in this poll!")

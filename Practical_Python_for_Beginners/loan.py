@@ -9,13 +9,19 @@ months = int(input("How many months do you want to se the results for?\n"))
 # Divide apr by 100 to make it a percent, then divide by 12 to make monthly
 monthly_rate = apr/100/12
 
-# Add in interest
-interest_paid = money_owed * monthly_rate
-money_owed = money_owed + interest_paid
+for i in range(months):
+    # Add in interest
+    interest_paid = money_owed * monthly_rate
+    money_owed = money_owed + interest_paid
 
-# Make payment
-money_owed = money_owed - payment
+    if (money_owed < 0):
+        print(f"The last payment is {money_owed}.")
+        print("You paid off the loan in", i+1, "months.")
+        break  # this interrupts the current loop
 
-# Print the results after this month
-print(f"Paid {payment}, of which {interest_paid} was interest.")
-print(f"Now I owe {money_owed}.")
+    # Make payment
+    money_owed = money_owed - payment
+
+    # Print the results after this month
+    print(f"Paid {payment}, of which {interest_paid} was interest.")
+    print(f"Now I owe {money_owed}.")
