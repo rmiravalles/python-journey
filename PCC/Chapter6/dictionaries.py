@@ -1,6 +1,6 @@
 # A dictionary in Python is a collection of key-value pairs.
 # Each key is connected to a value.
-# A key's value can be a number, a string, a ñist, or another dictionary.
+# A key's value can be a number, a string, a list, or another dictionary.
 # A dictionary is wrapped in braces {}. Every key is connected to its value by a colon :
 # and individual key-value pairs are separated by commas ,
 
@@ -25,7 +25,7 @@ print(alien_0)
 alien_0['color'] = 'yellow'  # here we're replacing an existing value with a new one
 print(alien_0)
 
-del alien_0['points']
+del alien_0['points']  # here we're deleting the points key
 print(alien_0)
 
 # We can write a dictionary like this:
