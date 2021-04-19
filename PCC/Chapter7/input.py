@@ -12,7 +12,7 @@ name2 = input(message)
 print(f"Hello, {name2}!")
 
 # By default, Python interprets the user's input as a string.
-# We can use the int() function to convert the string into an integer or a float.
+# We can use the int() function to convert the string into an integer or  float() to convert it into a float.
 
 height = int(input("How tall are you in cm? "))
 
