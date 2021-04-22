@@ -9,7 +9,7 @@ confirmed_users = []  # we'll start with an empty list, and move the users from 
 # We'll now verify each user until there are no more unconfirmed users,
 # And we'll move them to the confirmed_users list.
 while unconfirmed_users:
-    current_user = unconfirmed_users.pop()
+    current_user = unconfirmed_users.pop()  # the pop function removes the last item from a list or the given index value
 
     print(f"Verifying user {current_user}")
     confirmed_users.append(current_user)

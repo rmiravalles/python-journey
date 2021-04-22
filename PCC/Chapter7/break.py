@@ -5,7 +5,7 @@ prompt = "\nPlease enter the name of a city you have visited:"
 prompt += "\n(Enter 'quit' when you are finished.) "
 
 # A loop that starts with while True will run forever unless it reaches a break statement
-# Here, the loop will keep running until the user enters 'quit', causing the the program to exit the loop.
+# Here, the loop will keep running until the user enters 'quit', causing the program to exit the loop.
 while True:
     city = input(prompt)
 

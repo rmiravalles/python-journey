@@ -1,7 +1,7 @@
 # A program to enter pizza toppings.
 
 prompt = "\nWelcome to Vito's Pizza! Please enter the ingredient for your pizza topping."
-prompt += "\nWhen you're done choosing, please enter quit "
+prompt += "\nWhen you're done choosing, please enter quit.\n"
 
 while True:
     topping = input(prompt)

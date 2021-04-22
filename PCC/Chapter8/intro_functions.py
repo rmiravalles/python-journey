@@ -7,7 +7,7 @@ def greet_user():
     """Displays a simple greeting."""  # this is a docstring, a short description of what the function does
     print("Hello!")  # this is the actual task the function needs to perform
 
-greet_user()
+greet_user()  # to call the function, we type the function's name followed by parenthesis.
 
 # Passing information to a Function.
 def greeting(name):  # the variable name is called a parameter
@@ -27,18 +27,15 @@ def my_pet(animal, name):
 my_pet('cat', 'Billy')  # we must pass the arguments in the same order as they appear in the parameters
 
 # Alternatively, we can use keyword arguments, where we directly associate the name and the value within the argument.
-# Like that, the order in which the arguments appear don't matter.
+# Like that, the order in which the arguments appear doesn't matter.
 my_pet(animal='horse', name='Phantom')
 my_pet(name='Zeus', animal='rabbit')
 
 # We can define default values for our parameters.
 # If no argument is provided, Python will use the default value.
-def pet(pet_name, animal_type='dog'):  # parameter with default values need to be listed after all others that don't have default values
+def pet(pet_name, animal_type='dog'):  # parameters with default values need to be listed after all others that don't have default values
     print(f"\nI have a {animal_type}.")
     print(f"My {animal_type}'s name is {pet_name}.")
 
 pet('Roger')
 pet('Akira', 'lion')
-
-
-
