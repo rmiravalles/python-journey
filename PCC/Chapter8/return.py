@@ -6,15 +6,18 @@ def full_name(first, last):  # this function takes first and last as parameters
     name = f"{first} {last}"  # it combines the two parameters and assigns them to the name variable
     return name.title()  # the name is converted to title case and returned to the calling line
 
+
 actor = full_name('john', 'cleese')
 
 print(actor)
+
 
 # Returning a dictionary
 
 def build_person(first_name, last_name):
     person = {'first': first_name, 'last': last_name}
     return person
+
 
 musician = build_person('Ornette', 'Coleman')
 print(musician)
