@@ -32,7 +32,7 @@ cars = ['Ford', 'Citroen', 'Volvo', 'Fiat']
 
 print(cars)
 
-cars[0] = 'Mercedes'  # this will replace the first item in the list by this new item.
+cars[0] = 'Mercedes'  # this will replace the first item in the list with this new item.
 print(cars)
 
 cars.append('BMW')  # this will add a new element to the end of the list.
@@ -75,12 +75,12 @@ countries.sort(reverse=True)  # this will sort the list in reverse alphabetical 
 
 print(countries)
 
-# Once we apply the sort method, the list we forever remain in this new order.
+# Once we apply the sort method, the list will forever remain in this new order.
 # We can use the sorted function to temporarily display the items of a list in a sorted order.
 
 print("The list of countries in a reverse alphabetical order: ")
 print(countries)
-print("Now presented alpahabetically:")
+print("Now presented alphabetically:")
 print(sorted(countries))
 print("And here's the original list:")
 print(countries)
